@@ -24,6 +24,8 @@
   flex-flow: row nowrap;
   align-items: center;
   overflow: hidden;
+  background-color: unset !important;
+  
 }
 #animated-text-strip .marquee {
   white-space: nowrap;
@@ -36,7 +38,7 @@
     transform: translate(0, 0);
   }
   100% {
-    transform: translate(-100%, 0);
+    transform: translate(-50%, 0);
   }
 }
 
