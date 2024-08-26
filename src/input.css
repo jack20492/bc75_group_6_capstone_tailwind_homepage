@@ -90,34 +90,65 @@ tr {
 }
 
 tr:hover {
-    background-color: yellow;
+    background-color: black;
     color: white;
 }
 
-tr th #pics {
+tr th .pics {
     position: relative;
 }
 
-tr th #pics #pic-2 {
+tr th .pics .pic-2 {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
 }
 
-tr:hover #pic-2 {
+tr:hover .pics .pic-2 {
     opacity:1
 }
 
-tr:hover #pic-1 {
+tr:hover .pic-1 {
     opacity:0
 }
 
 
+tr th a {
+    position: relative;
+}
 
+tr th .arrow .img-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
 
+tr:hover .arrow .img-2 {
+    opacity:1
+}
 
+tr:hover .img-1 {
+    opacity:0
+}
 
+.core-features .core-features-info h2 {
+    font-size: 80px;
+    font-weight: 700;
+    padding: 40px;
+}
+
+.features-table .table-content table tr{
+    border-radius: 50%;
+}
+
+.page-wrapper {
+    background-color: #efeae3;
+    background-image: linear-gradient(153deg, #efeae3 0%, #fe651f 100%);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
 
 
 
