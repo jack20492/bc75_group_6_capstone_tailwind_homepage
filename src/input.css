@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 * {
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -184,4 +185,18 @@ tr:hover .img-1 {
 .max-w-\[700px\] {
     max-width: 700px;
 } */
+
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.container_feedback{
+    
+    max-width: 1280px;
+    padding: 30px; border: 1px red solid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
