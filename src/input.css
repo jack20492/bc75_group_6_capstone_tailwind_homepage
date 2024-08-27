@@ -30,6 +30,11 @@ header {
     display: block;
 }
 
+/* .site-header .master-container .flex a img {
+    max-width: 100%;
+  height: auto;
+} */
+
 .site-menu-main {
     margin-bottom: 0;
     padding-left: 0;
@@ -39,6 +44,7 @@ header {
 #simplify .simplify-text h1 {
     font-size: 120px;
     font-weight: 700;
+   
 }
 
 #simplify .simplify-text p {
@@ -70,9 +76,13 @@ button:hover::after {
     font-weight: 1000;
 }
 
+th {
+    position: relative;
+}
 
 tr th h3 {
     font-size: 30px;
+    transition: 0.3s;
 }
 
 tr th p {
@@ -139,17 +149,39 @@ tr:hover .img-1 {
     padding: 40px;
 }
 
-.features-table .table-content table tr{
-    border-radius: 50%;
-}
+/* .features-table .table-content table {
+    border-collapse: separate;
+} */
 
 .page-wrapper {
     background-color: #efeae3;
     background-image: linear-gradient(153deg, #efeae3 0%, #fe651f 100%);
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
+    width: 100%;
 }
 
 
+/* @media (min-width: 1200px) {
+    .xl\:max-w-\[980px\] {
+        max-width: 980px;
+    }
+}
+@media (min-width: 576px) {
+    .sm\:text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
 
+.font-semibold {
+    font-weight: 600;
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.max-w-\[700px\] {
+    max-width: 700px;
+} */
 
